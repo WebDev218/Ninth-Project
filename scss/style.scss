@@ -1,0 +1,58 @@
+@import 'base/_normalize.scss',
+		'base/_base.scss';
+
+/* Variables */
+$mx-width: 1200px;
+$lg-width: 992px;
+$md-width: 768px;
+$sm-width: 600px;
+
+
+.wrapper {	
+	border: 1px solid blue;
+	margin: auto;
+	max-width: 1200px;
+}
+
+header {
+	
+	height: auto;
+	height: 80px;
+}
+
+.header-contents {
+	// background: rgba(150,150,150, .2);
+
+	// position: fixed;
+	// top: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+header h1 {		
+	display: inline-block;		
+	// width: auto;
+}
+
+nav {	
+	display: inline-block;
+	height: auto;
+	margin: auto 0;
+}
+ul {
+	padding: 0;
+}
+
+nav ul,
+nav li {
+	display: inline-block;
+}
+
+nav li {
+	border-right: 2px solid black;
+	padding: 0 1em;
+}
+nav li:last-child {
+	border-right: none
+}

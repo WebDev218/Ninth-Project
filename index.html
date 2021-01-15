@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<title>WebDev218 Portfolio</title>
+</head>
+<body id="home">
+	<div class="wrapper">
+		<header>
+			<div class="header-contents">
+				<h1 class="main-title">WebDev218's Portfolio Page!</h1>		
+				<nav class="nav main">
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About Me</a></li>				
+						<li><a href="#portfolio">Example Projects</a></li>			
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>		
+			</div>
+		</header>
+		
+		<main>		
+			<section class="about" id="about">
+				<h2>About me!</h2>
+				<article>
+					Hi there! My name is Matt, or as I'm known online: WebDev218. I’m an aspiring web developer who loves understanding, and building things. I live in the UK, and have had a variety of jobs, but now wish to move to development.
+
+					I have lived in the UK my whole life, but in our crazy Corona world, I'm more than happy to work remote for any timezone!
+
+					Please take a look below at some projects I produced for Team Tree House.
+				</article>	
+			
+				<aside>
+					<figure>
+						<img src="img/personal/me-3.jpg" alt="Picture of me">
+						<figcaption>Pictured: Handsomeness</figcaption>
+					</figure>
+				</aside>
+
+
+			</section>
+			<section class="portfolio" id="portfolio">			
+				<h2>Projects</h2>
+
+				<div>
+					<form class="project-search">
+						<input  type="text" name="search" placeholder="Search for a project...">
+						<span class="close">x</span>
+
+						<legend>Select languages:</legend>
+
+						<label for="html5">HTML 5</label>
+						<input type="checkbox" name="html5" id="html5">
+
+						<label for="css3">CSS 3</label>
+						<input type="checkbox" name="css3" id="css3">
+
+						<label for="javascript">JavaScript</label>
+						<input type="checkbox" name="html5" id="javascript">
+					</form>
+
+
+
+				</div>
+				
+<!-- 
+				<article class="project">
+					<h3>Project 1</h3>
+					<figure>
+						<img src="img/projects/project1-sm.png" alt="Project 1">
+						<figcaption></figcaption>
+					</figure>
+					<p class="project-description short">Description</p>
+					<p class="project-description full">Description</p>
+					<div class="languages">
+						<h4>Languages used</h4>
+						<ul><li><p>html5</p><img src="img/languages/html5-sm.png"></li><li><p>css3</p><img src="img/languages/css3-sm.png"></li><li><p>javascript</p><img src="img/languages/javascript-sm.png"></li></ul>
+					<div>
+				</article>
+ -->
+
+				<article class="project">
+					<h3>Project 4 - Web Style Guide</h3>
+					<p class="project-description short">This was a great opportunity to practice turning CSS in SASS.</p>
+					<p class="project-description full">Tree House provided a template, and asked that I convert the CSS they had provided in to fully functional modular SASS.</p>
+					<div class="languages"><div>					
+				</article>
+
+				<article class="project">
+					<h3>Project 5 - Interactive Photo Gallery</h3>
+					<p class="project-description short">Here I took some sample photos, and turned them into a slick gallery.</p>
+					<p class="project-description full">This allowed me to flex my CSS in styling the gallery, and my JavaScript in the form of a functional image search.</p>
+					<div class="languages"><div>					
+				</article>
+
+				<article class="project">
+					<h3>Project 6 - Wheel Of Success</h3>
+					<p class="project-description short">I gave my JS muscles a work out producing an interactive game.</p>
+					<p class="project-description full">This project captures user mouse inputs to a virtual keyboard, then matches that against preprovided answers, and gives visual feedback on screen.</p>
+					<div class="languages"><div>					
+				</article>
+
+				<article class="project">
+					<h3>Project 7 - WebApp Dashboard</h3>
+					<p class="project-description short">An interactive Dashboard that incorporated Chart.js and SVG.</p>
+					<p class="project-description full">Here I built functional interactive charts, used graphics for my nav icons, and some user friendly forms. This was a great way to incorporate responsive, mobile first, design.</p>
+					<div class="languages"><div>					
+				</article>
+
+				<article class="project">
+					<h3>Project 8 - API directory</h3>
+					<p class="project-description short">For Project 8 I used AJAX and Fetch to pull data from an API and displayed it to the user.</p>
+					<p class="project-description full">
+						That data was Fetched on load, or on a prompt by the user, then displayed in cards based on responsive mobile first principles. The user could also search, and customise the number of replies with ease.
+						<a href="https://randomuser.me/" target="_blank">Random User API</a>.</p>
+					<div class="languages"><div>					
+				</article>
+
+			</section>
+
+		</main>
+			<footer id="contact">
+				<h5>Social Media:</h4>
+				<nav class="nav footer">
+					<ul class="contact">
+						<li>Github</li>
+						<li>LinkedIn</li>
+						<li>Email</li>
+					</ul>
+				</nav>
+
+			<aside>
+					<blockquote>
+						“Once men turned their thinking over to machines in the hope that this would set them free. But that only permitted other men with machines to enslave them.”<br>
+						― <a href="https://www.goodreads.com/quotes/842526-once-men-turned-their-thinking-over-to-machines-in-the">Frank Herbert, Dune</a>
+					</blockquote>
+				</aside>
+			</footer>
+	</div> <!-- wrapper end -->	
+	<script src="scripts/normalize.css"></script>
+	<script src="scripts/script.css"></script>
+</body>
+</html>
